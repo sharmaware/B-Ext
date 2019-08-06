@@ -1,5 +1,5 @@
 chrome.runtime.onInstalled.addListener(function() {
-  chrome.storage.sync.set({emoji: '&#xfe0f'}, function() {
+  chrome.storage.sync.set({emoji: "&#x1f171"}, function() {
     console.log("The emoji has been stored.");
   });
 });
