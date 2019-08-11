@@ -1,5 +1,5 @@
 # B-Ext
-Converts all 'b' and 'B' characters into the 🅱️ emoji, or any character of your choice.
+Converts all 'b' and 'B' characters on your webpage into the 🅱️ emoji, or any character of your choice. Just click the 'B mode' button.
 
 # To Use
 1. Download all files in repository.
