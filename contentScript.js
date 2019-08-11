@@ -19,6 +19,10 @@ chrome.storage.sync.get('emoji', function(data){
             var replaceIndex = content.indexOf('b');
             content = content.substring(0,replaceIndex) + utfChar + content.substring(replaceIndex+1, content.length);
           }
+          while(content.indexOf('B') >= 0){
+            var replaceIndex = content.indexOf('B');
+            content = content.substring(0,replaceIndex) + utfChar + content.substring(replaceIndex+1, content.length);
+          }
           spanElements[i].innerHTML= content;
         }
       }
